@@ -29,7 +29,10 @@ export default function Home() {
                 src={`https://jherr-pokemon.s3.us-west-1.amazonaws.com/${pokemon.image}`}
                 alt={pokemon.name}
               />
-              <h3>{pokemon.name}</h3>
+              <h3>
+                {pokemon.name}
+                {pokemon.id}
+              </h3>
             </Link>
           </div>
         ))}
